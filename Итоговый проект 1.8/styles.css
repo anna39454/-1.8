@@ -1,0 +1,50 @@
+.inner-header {
+    font-size: 20px;
+    padding: 0px 100px;
+    background-color: rgb(5, 53, 37);
+    color: white;
+    
+    display: flex; /* расположили горизонтально по краям*/
+    justify-content: space-between; 
+    list-style-type: none;  /* убрали точки*/
+} 
+
+.navigation {
+    display: flex; /* расположили горизонтально по краям*/
+    justify-content: space-between; 
+    list-style-type: none;  /* убрали точки*/
+    padding-top: 20px;/* спустили вниз меню*/
+}
+    
+nav ul a {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    /*text-transform: uppercase; увеличили текст */
+    margin-right: 60px; /*раздвинули ссылки  */
+}   
+
+nav ul a:hover {color: #eeff00;} /*псевдокласс для изменения цвета при наведении на ссылку */
+   
+.logo-container { font-size: 20px;}
+
+.content-container {
+    padding-left: 400px;
+    padding-right: 400px;
+
+}
+
+.text-container {
+    display: flex; /* расположили горизонтально по краям*/
+    justify-content: space-between; 
+    padding-top: 20px; /* спустили вниз */
+   
+}
+ 
+.description {
+
+    padding-left: 400px
+    uppercase; /*увеличили текст */
+    width: 600px; /* ширина текста */
+    text-transform: uppercase; /*увеличили текст */
+}
